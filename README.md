@@ -1,20 +1,20 @@
-E-Commerce Sales Performance Dashboard
-📊 [View Project Screenshot Here]
-Project Overview
-This Power BI project provides a comprehensive analysis of e-commerce sales data, designed to help stakeholders track profitability and consumer behavior. The dashboard transforms raw transactional data into actionable insights, focusing on high-value customers, geographic performance, and product trends.
-Key Features & Insights
-Executive Summary: High-level KPIs using Card visuals to track Total Sales (Amount), Total Profit, and Total Quantity sold.
-Geographic Analysis: Identification of the Top 5 States by revenue to optimize regional marketing efforts.
-Customer Intelligence: Ranking of Top 5 Customers to identify high-value purchasers.
-Product Performance: Breakdown of quantity sold by Category and Sub-Category, including a "Top 5 Sub-categories by Profit" view.
-Operational Trends: Monthly profit trends and sales distribution by Payment Mode (COD, Credit Card, EMI, etc.).
-Interactive Filtering: Dynamic Slicers for Quarter and State allow for granular data exploration.
-Technical Stack
-Tool: Power BI Desktop
-Data Modeling: Star Schema
-Language: DAX (Data Analysis Expressions) for calculated columns and measures.
-ETL Process: Power Query for data cleaning and transformation.
-DAX Implementation
-To enhance the analytical depth of the dashboard, I utilized custom DAX queries. Examples include:
-Calculated Columns: Created for categorizing data and time-intelligence grouping.
-Measures: Developed to calculate running totals and year-over-year comparisons (if applicable).
+# E-Commerce Sales Performance Dashboard
+
+## 📊 Project Overview
+This Power BI dashboard provides a comprehensive analysis of e-commerce sales data, transforming raw transactional records into actionable business insights. It identifies key performance trends, high-value customers, and geographic growth opportunities.
+
+## 🚀 Key Features & Visuals
+*   **Executive KPIs:** Card visuals displaying **Sum of Amount**, **Sum of Profit**, and **Sum of Quantity**.
+*   **Geographic Insights:** Bar chart showcasing the **Top 5 States by Amount**.
+*   **Customer Analysis:** Identification of the **Top 5 Customers by Amount**.
+*   **Product Performance:** 
+    *   Sum of Quantity broken down by **Category**.
+    *   Top 5 **Sub-categories** ranked by Profit.
+*   **Operational Trends:** 
+    *   Profit analysis by **Month**.
+    *   Sum of Quantity distributed by **Payment Mode**.
+*   **Interactive Filtering:** Integrated **Slicers** for dynamic filtering by **Quarter** and **State**.
+
+## 🛠️ Technical Implementation
+*   **Data Modeling:** Optimized star schema for efficient report performance.
+*   **DAX Scripting:** Utilized DAX (Data Analysis Expressions) for advanced data manipulation and calculated columns.
